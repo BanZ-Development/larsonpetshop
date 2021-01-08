@@ -39,3 +39,6 @@ ul {
     border-radius: 4px;;
     margin-top: 12px;
   }
+  .navbar navbar-expand-sm bg-dark navbar-dark {
+    background-color: #0F6886;
+  }
