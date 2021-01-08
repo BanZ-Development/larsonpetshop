@@ -18,10 +18,14 @@ function search() {
     let search = document.getElementById('search').value;
     for(i=0;i<items.length;i++) {
         if(items[i].title.toLowerCase().includes(search.toLowerCase())) {
-            console.log(items[i]);
+            instantiate(items[i]);
         }
     }
 }
 addItem('Dog',69,'A poggers doggo','dog.png');
 addItem('Your mom',420,'A poggers mom','mom.png');
+
+function instantiate(item) {
+    document.appendChild(document.createElement('p',item.title));
+}
 
