@@ -27,6 +27,6 @@ addItem('Your mom',420,'A poggers mom','mom.png');
 
 function instantiate(item) {
     let elem = document.createElement('p',item.title);
-    document.appendChild(elem);
+    document.body.appendChild(elem);
 }
 
