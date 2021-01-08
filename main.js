@@ -26,8 +26,8 @@ addItem('Dog',69,'A poggers doggo','dog.png');
 addItem('Your mom',420,'A poggers mom','mom.png');
 
 function instantiate(item) {
-    console.log(item.title);
-    let elem = document.createElement('p',item.title);
+    let elem = document.createElement('p');
+    elem.innerHTML = item.title;
     document.body.appendChild(elem);
 }
 
