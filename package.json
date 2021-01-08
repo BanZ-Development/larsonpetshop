@@ -1,0 +1,19 @@
+{
+  "name": "larsonpetshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BanZ-Development/larsonpetshop.git"
+  },
+  "author": "BanZ Development",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BanZ-Development/larsonpetshop/issues"
+  },
+  "homepage": "https://github.com/BanZ-Development/larsonpetshop#readme"
+}
