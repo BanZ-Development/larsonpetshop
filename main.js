@@ -19,5 +19,6 @@ function search() {
         }
     }
 }
-addItem('Dog',69,'A poggers doggo','lmao.png');
+addItem('Dog',69,'A poggers doggo','dog.png');
+addItem('Your mom',420,'A poggers mom','mom.png');
 
