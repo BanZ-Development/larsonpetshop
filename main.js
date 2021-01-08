@@ -1,7 +1,6 @@
 let items = [];
-let input = document.querySelector('input');
 
-input.addEventListener('keyup',(e)=>{
+window.addEventListener('keydown',(e)=>{
     search();
 })
 
