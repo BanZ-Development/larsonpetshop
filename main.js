@@ -1,7 +1,9 @@
 let items = [];
 
 window.addEventListener('keydown',(e)=>{
-    search();
+    if(e.key=="Enter") {
+        search();
+    }
 })
 
 function addItem(title,price,description,picture) {
@@ -28,6 +30,11 @@ addItem('Your mom',420,'A poggers mom','mom.png');
 function instantiate(item) {
     let elem = document.createElement('p');
     elem.innerHTML = item.title;
-    document.body.appendChild(elem);
+    if(document.getElementById('elems').firstChild) {
+        document.getElementById('elems').replaceChild(elem,document.getElementById('elems').firstChild);
+    } else {
+        document.getElementById('elems').appendChild(elem);
+    }
+
 }
 

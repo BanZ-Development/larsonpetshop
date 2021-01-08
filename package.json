@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/BanZ-Development/larsonpetshop/issues"
   },
-  "homepage": "https://github.com/BanZ-Development/larsonpetshop#readme"
+  "homepage": "https://github.com/BanZ-Development/larsonpetshop#readme",
+  "dependencies": {
+    "module": "^1.2.5",
+    "nedb": "^1.8.0"
+  }
 }
