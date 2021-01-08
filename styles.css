@@ -28,3 +28,14 @@ ul {
   li a:hover {
     background-color: #F2511A;
   }
+
+  .lps {
+    margin-top: 25px
+  }
+
+  input {
+    border: #0F6886 4px solid;
+    border-radius: 4px;;
+    outline: none;
+    margin-top: 12px;
+  }
