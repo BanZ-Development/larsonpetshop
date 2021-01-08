@@ -1,5 +1,9 @@
 let items = [];
+let input = document.querySelector('input');
 
+input.addEventListener('keyup',(e)=>{
+    search();
+})
 
 function addItem(title,price,description,picture) {
     const item = {
@@ -14,7 +18,7 @@ function addItem(title,price,description,picture) {
 function search() {
     let search = document.getElementById('search').value;
     for(i=0;i<items.length;i++) {
-        if(items[i].title.includes(search)) {
+        if(items[i].title.toLowerCase().includes(search.toLowerCase())) {
             console.log(items[i]);
         }
     }
