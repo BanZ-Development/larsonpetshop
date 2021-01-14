@@ -5,9 +5,16 @@ body {
 }
 nav {
 	display: inline;
+	background-color: #333;
+	width: auto;
+	border-radius: 4px;
 }
 
 a{
 	text-decoration: none;
-	color: black;
+	color: white;
+}
+
+li {
+	display: inline;
 }
