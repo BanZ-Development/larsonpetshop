@@ -87,7 +87,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
     background-color: #0F6886;
   }
 
-  .btn btn-success {
+  button .btn btn-success{
     background-color: #F2511A;
     margin-top: 11px;
   }
