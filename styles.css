@@ -83,8 +83,8 @@ nav .start-contact, a:nth-child(5):hover~.animation {
     border-radius: 4px;;
     margin-top: 12px;
   }
-  .navbar {
-    background-color: #0F6886;
+  .navbar-dark .navbar-nav {
+	background-color: #0F6886;
   }
 
   nav, form .btn btn-success{
